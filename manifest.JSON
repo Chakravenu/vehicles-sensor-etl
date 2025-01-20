@@ -1,0 +1,16 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://vehicles-sensor-data/input-data/sensor_data.csv",
+                "s3://vehicles-sensor-data/output-data/"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "csv",
+        "delimiter": ",",
+        "textqualifier": "\"",
+        "containsHeader": "true"
+    }
+}
